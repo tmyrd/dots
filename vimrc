@@ -12,6 +12,9 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+"" Disable visual mode on mouse select
+set mouse-=a
+
 "" The following lets you use fzf in vim,
 "" but I haven't really used it yet.
 "set rtp+=/opt/homebrew/opt/fzf
